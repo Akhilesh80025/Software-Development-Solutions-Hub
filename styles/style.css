@@ -1,0 +1,193 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  .container {
+    padding: 10px;
+  }
+}
+
+/* Header Styles */
+header {
+  background-color: #d5c3c3;
+  color: #5544f6;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ff8c00;
+}
+main {
+  padding: 20px;
+}
+
+/* Services Styles */
+.services {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+#services {
+  background-color: #a1a1a1;
+  padding: 40px;
+}
+
+#services h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service {
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.service:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  color: #666;
+}
+
+/* Team Styles */
+.team {
+  background-color: #ffccc9;
+  padding: 40px;
+  text-align: center;
+}
+/* Team Styles */
+#team {
+  background-color: #f8a7a7;
+  padding: 40px;
+  text-align: center;
+}
+
+#team h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.33%;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  color: #fff;
+  font-size: 16px;
+}
+
+
+/* Portfolio Styles */
+.portfolio {
+  background-color: #f4f4f4;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* About Us Styles */
+#about {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+#about nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#about h2 {
+  color: #ffffff;
+}
+
+#about p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+#about p:last-child {
+  margin-bottom: 0;
+}
+
+
