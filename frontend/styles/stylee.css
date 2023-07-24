@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+   /* font-family:Arial, sans-serif;*/
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  header {
+    background-color: #c6c3d5;
+    color: #5544f6;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  main {
+    padding: 20px;
+    position: relative;
+    animation: slideRightToLeft 15s linear infinite;
+  }
+  
+  /* Keyframes for Animation */
+  @keyframes slideRightToLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-10%);
+    }
+  }
+
+  .main {
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  
+
+
+
+.heading-nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  nav ul li a:hover {
+    color: #ff8c00;
+  }
+
+
+  
+  .heading {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+     margin: 0px;
+     font-size: 20px;
+  }
+
+  #about {
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    position: relative; 
+  }
+  
+  #team {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 75px;
+    text-align: center;
+    position: relative; 
+  }
+
+  
+  
+
+  .team-member {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.33%;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  color: #1f1f1f;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  color: #222222;
+  font-size: 16px;
+}
+
+
+#services {
+    background-color: #c3ca3d;
+    color: #fff;
+    padding: 70px;
+    text-align: left;
+    position: relative; 
+  }
+  
+.service {
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .service:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    color: #666;
+  }
+
+
+
+
+
+  #portfolio {
+    background-color: #4fa906;
+    padding: 60px 0;
+    position: relative; 
+  }
+
+  
+  #portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #portfolio-container div {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #d93dde;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #portfolio-container h3 {
+    margin-top: 0;
+  }
+  
+  #portfolio-container p {
+    margin-bottom: 15px;
+  }
+  
+  #portfolio-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+
+  #contact-us {
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    position: relative; 
+  }
+
+  .contact-div:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-div h1 {
+    color: #5544f6;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .form-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-box,
+  .message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .input-box:focus,
+  .message:focus {
+    border-color: #5544f6;
+    box-shadow: 0 0 8px rgba(85, 68, 246, 0.3);
+  }
+  
+  .message {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .send {
+    background-color: #5544f6;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+  }
+  
+  .send:hover {
+    background-color: #ff8c00;
+  }
+  
+  .send:active {
+    transform: translateY(2px);
+  }
+  
+  /* Responsive styles for the form */
+  @media (max-width: 600px) {
+    .form-contact {
+      padding: 0 15px;
+    }
+    .input-box,
+    .message {
+      padding: 12px;
+    }
+    .send {
+      padding: 10px 24px;
+    }
+  }
+
+  .footer {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
