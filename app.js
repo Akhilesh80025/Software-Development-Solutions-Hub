@@ -10,9 +10,6 @@ app.get("/", function(req, res) {
   res.sendFile(__dirname + "/frontend/public/index.html");
 });
 
-
-
-
 app.post("/",function(req, res){
 
   const comm = req.body.message;
