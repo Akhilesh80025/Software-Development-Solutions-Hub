@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Software Development Solutions Hub form section</title>
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <header>
+        <h1>Software Development Solutions Hub</h1>
+    </header>
+
+    <nav class="heading-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            
+        </ul>
+
+    </nav>
+
+    <marquee class="main" direction="left"><h1>Welcome to Software Development Solutions Hub</h1></marquee>
+    
+    <section id="form">
+        <div class ="form-heading"><h2>fill the form</h2></div>
+        <form action="/" method="POST">
+            <div class="form-contact">
+                <input type="text" class="input-box" name="nameofperson" required placeholder="FULL NAME">
+                <input type="email" class="input-box" name="username" required placeholder="EMAIL ID">
+                <textarea class="message" rows="4" name="message" cols="50" placeholder="WRITE US YOUR QUERY HERE"></textarea>
+                <button class="send">SEND</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="contact-us">
+        <div id="contact-info"></div>
+    </section>
+
+    <button id="moveToTopBtn">Move to Top</button>
+
+    <div class="footer">
+        <p>© 2023 Software Development Solutions Hub. All Rights Reserved.</p>
+    </div>
+
+    <script src="../src/move_to_top.js"></script>
+    <script src="../src/contact.js"></script>
+</body>
+</html>
