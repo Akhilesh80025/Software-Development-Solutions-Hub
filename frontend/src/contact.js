@@ -10,7 +10,6 @@ const contactInfo = {
     },
 };
 
-// Function to display the contact information and social media links
 function displayContactInfo() {
     const contactInfoElement = document.createElement('div');
     contactInfoElement.classList.add('contact-info');
@@ -30,7 +29,6 @@ function displayContactInfo() {
     whatsappElement.appendChild(whatsappLink);
     contactInfoElement.appendChild(whatsappElement);
 
-    // Social Media Links
     const socialMediaElement = document.createElement('div');
     for (const platform in contactInfo.socialMedia) {
         const platformLink = document.createElement('a');
@@ -44,5 +42,4 @@ function displayContactInfo() {
     document.getElementById('contact-us').appendChild(contactInfoElement);
 }
 
-// Call the display function to render the contact information and social media links
 displayContactInfo();

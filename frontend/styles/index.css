@@ -1,43 +1,21 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    
   }
-
-
-
-  body {
-   /* font-family:Arial, sans-serif;*/
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
   header {
-    background-color: #c6c3d5;
     color: #44f66d;
     padding: 20px;
     text-align: center;
     font-size: 30px;
     background-image: url('../asset/head1.jpg');
-    background-size: cover; /* Adjusts the background image to cover the entire header */
-    background-position: center; /* Centers the background image */
+    background-size: cover;
+    background-position: center; 
     
   }
   
-
-  main {
-    padding: 20px;
-    position: relative;
-    animation: slide-in 15s linear infinite;
-    background-image: linear-gradient(180deg, #fffffff7 , rgb(255, 250, 155));
-  }
-  
-  /* Keyframes for Animation */
   @keyframes slide-in {
     0% {
       transform: translateX(-100%);
@@ -98,7 +76,7 @@
     position: absolute;
     top: 50%;
     right: 20px;
-    transform: translateY(-50%); /* Vertically center the button */
+    transform: translateY(-50%);
 }
   
 
@@ -133,27 +111,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-  }
-
-  #team {
-    padding: 75px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  #team::before {
-    content: '';
-    background-image: url('../asset/t.jpeg'); /* Replace 'path/to/3d-image.jpg' with the actual path to your 3D image file */
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background-image: linear-gradient(180deg, #eca727f7 , white);
-    z-index: -1; /* Set a lower z-index to position the background image behind the content */
   }
   
   .team-member {
@@ -177,7 +135,7 @@
 .team-member h3 {
   color: #000000;
   font-size: 20px;
-  font-weight: bold; /* Add this line to make the font bold */
+  font-weight: bold;
   margin-bottom: 5px;
 }
 
@@ -288,7 +246,7 @@
     height: auto;
   }
 
- /* CSS for the contact section */
+
 #contact-us {
   background-color: #fff;
   padding: 70px;
@@ -316,8 +274,6 @@
 .contact-us-div:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
-
-/* Additional styles for the contact information, vision, and mission */
 .contact-info p {
   margin: 5px 0;
 }
@@ -357,13 +313,11 @@
     text-align: center;
   }
   
-  /* Your existing styles */
 
-/* Image Slider styles */
 .slider-container {
   overflow: hidden;
   width: 100%;
-  max-height: 400px; /* Adjust the height as needed */
+  max-height: 400px;
   position: relative;
 }
 
@@ -385,14 +339,14 @@
   position: fixed;
   top: 20px;
   right: 20px;
-  color: rgb(0, 0, 0); /* Set text color to white */
+  color: rgb(0, 0, 0); 
   border-radius: 5px;
 }
 
 #time {
-  font-size: 24px; /* Adjust font size as needed */
+  font-size: 24px; 
 }
 
 #date {
-  font-size: 16px; /* Adjust font size as needed */
+  font-size: 16px; 
 }
