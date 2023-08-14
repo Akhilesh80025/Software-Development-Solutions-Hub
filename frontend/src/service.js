@@ -1,4 +1,4 @@
-// Define the services data
+
 const services = [
   {
     name: 'Business Website',
@@ -8,11 +8,11 @@ const services = [
   - Integration of essential features like contact forms, about us section, and services/products showcase
   - Search engine optimization (SEO) to improve your website's visibility
   - Regular website maintenance and updates to keep your site running smoothly`,
-    price: 199.99, // Update the price if necessary
-    duration: '2 hours' // Update the duration if necessary
+    price: 199.99,
+    duration: '2 hours' 
   },
 
-  // Add other service objects if needed
+
 
   {
     name: 'E-commerce Website Development',
