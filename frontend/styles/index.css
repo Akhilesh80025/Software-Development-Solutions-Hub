@@ -6,22 +6,65 @@
     
   }
 
-  /* Your existing CSS styles */
+/* Your existing CSS styles */
 
 /* Media query for mobile screens */
 @media only screen and (max-width: 767px) {
   /* Responsive styles for mobile screens go here */
+
+  /* Example: Adjust font size for mobile */
+  body {
+    font-size: 14px;
+  }
+
+  /* Example: Stack navigation links vertically */
+  nav {
+    flex-direction: column;
+  }
+
+  /* Example: Hide sidebars or non-essential content */
+  .sidebar {
+    display: none;
+  }
 }
 
 /* Media query for tablet screens */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* Responsive styles for tablet screens go here */
+
+  /* Example: Increase font size for tablets */
+  body {
+    font-size: 16px;
+  }
+
+  /* Example: Adjust layout for larger screens */
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 
 /* Media query for laptop/desktop screens */
 @media only screen and (min-width: 1024px) {
   /* Responsive styles for laptop/desktop screens go here */
+
+  /* Example: Reset font size for larger screens */
+  body {
+    font-size: 18px;
+  }
+
+  /* Example: Use a multi-column layout for certain sections */
+  .features {
+    column-count: 3;
+    column-gap: 20px;
+  }
+
+  /* Example: Show hidden elements on larger screens */
+  .sidebar {
+    display: block;
+  }
 }
+
 
   header {
     color: #44f66d;
