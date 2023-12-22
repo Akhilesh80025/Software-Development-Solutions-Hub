@@ -11,14 +11,13 @@ app.get("/", function(req, res) {
 });
 
 app.post("/",function(req, res){
-
-  const comm = req.body.message;
+const comm = req.body.message;
    const na = req.body.nameofperson;
   var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
         user: 'software8solution8hub@gmail.com',
-        pass: 'uopphsajmefndbkb' 
+        pass: 'wxgq gxez txgf nfqp' 
       }
     });
 
@@ -34,7 +33,7 @@ app.post("/",function(req, res){
       if (error) {
         console.log(error);
       } else {
-        console.log("sent");
+        console.log("Email sent successfully");
         res.send("Message sent successfully! Thank you for your feedback.");
         
       }

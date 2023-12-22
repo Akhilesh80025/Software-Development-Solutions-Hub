@@ -5,6 +5,24 @@
     
     
   }
+
+  /* Your existing CSS styles */
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 767px) {
+  /* Responsive styles for mobile screens go here */
+}
+
+/* Media query for tablet screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Responsive styles for tablet screens go here */
+}
+
+/* Media query for laptop/desktop screens */
+@media only screen and (min-width: 1024px) {
+  /* Responsive styles for laptop/desktop screens go here */
+}
+
   header {
     color: #44f66d;
     padding: 20px;
